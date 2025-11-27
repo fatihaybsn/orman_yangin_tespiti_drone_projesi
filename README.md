@@ -44,7 +44,6 @@ Gerekli kütüphaneleri indirin:
 ```bash
 pip install -r requirements.txt
 ```
-![fire_detected_image](https://github.com/user-attachments/assets/8e683bff-b507-41f8-b5b9-a0418703715e)
 
 ### 2. Yolo Modeli
 
@@ -78,6 +77,8 @@ Projeyi çalıştırmak için terminalde aşağıdaki komutu kullanın:
 python3 yangin_tespiti.py
 ```
 ---
+
+![fire_detected_image](https://github.com/user-attachments/assets/8e683bff-b507-41f8-b5b9-a0418703715e)
 
 ## Kullanım
 
@@ -116,14 +117,15 @@ cap = cv2.VideoCapture("FİRE.mp4")
 ```
 Kodun geri kalan kısmını olduğu gibi bırakın; yani model yükleme, yangın tespiti, e‑posta gönderimi gibi mantık aynı şekilde çalışacaktır. 
 
+![1711979356615](https://github.com/user-attachments/assets/977c0f9f-2691-45d6-90d8-ff829e95f06c)
+
 Eğer pc de demo olarak denemek isterseniz:
 ```bash
 cap = cv2.VideoCapture(0)
 ```
 yazmanız yeterlidir.
----
 
-![1711979356615](https://github.com/user-attachments/assets/977c0f9f-2691-45d6-90d8-ff829e95f06c)
+---
 
 ## Proje Mimarisi
 
