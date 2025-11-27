@@ -5,8 +5,11 @@ Bu proje, bir drone kullanarak ormanlarda yangın tespiti yapabilen bir sistem g
 ---
 
 ## Proje Özeti
-🎥 Demo Video: 
+🎥 Demo Video: https://youtu.be/ZIup5u7ugtg?si=76OZGFrAjp-8RO1f 
+
 Bu proje, drone tabanlı bir yangın tespit sistemi için geliştirilmiştir. Sistem, aşağıdaki işlevleri yerine getirir:
+
+![IMG_20230728_190255](https://github.com/user-attachments/assets/6f16278f-dee7-47ae-afd0-81b86d9319a8)
 
 * **Canlı Görüntü İşleme**: Raspberry Pi V1 kamerası ile video akışı alınır ve bu görüntüler üzerinde Yolo modeli kullanılarak yangın tespiti yapılır.
 * **Yolo Tespiti**: Yolo (You Only Look Once) algoritması, görüntüdeki yangınları hızlı ve doğru bir şekilde tespit etmek için kullanılır.
@@ -28,6 +31,8 @@ Aşağıdaki kütüphanelerin yüklü olması gerekmektedir:
 ```bash
 pip install opencv-python torch requests smtplib numpy
 ```
+![IMG_20230727_182721](https://github.com/user-attachments/assets/42890d85-4b57-47e1-9604-2d70279b933a)
+
 
 ## Kurulum ve Çalıştırma
 
@@ -39,6 +44,7 @@ Gerekli kütüphaneleri indirin:
 ```bash
 pip install -r requirements.txt
 ```
+![fire_detected_image](https://github.com/user-attachments/assets/8e683bff-b507-41f8-b5b9-a0418703715e)
 
 ### 2. Yolo Modeli
 
@@ -47,6 +53,7 @@ Bu proje, yangın tespiti için eğitilmiş bir Yolo modeline ihtiyaç duyar. Re
 ```python
 model = torch.hub.load('ultralytics/yolov5', 'custom', path='fire_model.pt')
 ```
+![IMG_20230726_104930](https://github.com/user-attachments/assets/4493ecdb-7c72-400c-99aa-88fa9a2a8372)
 
 ### 3. Donanım Kurulumu
 
@@ -115,6 +122,8 @@ cap = cv2.VideoCapture(0)
 ```
 yazmanız yeterlidir.
 ---
+
+![1711979356615](https://github.com/user-attachments/assets/977c0f9f-2691-45d6-90d8-ff829e95f06c)
 
 ## Proje Mimarisi
 
