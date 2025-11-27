@@ -1,6 +1,7 @@
 # Orman Yangını Tespiti Drone Projesi
 
 Bu proje, bir drone kullanarak ormanlarda yangın tespiti yapabilen bir sistem geliştirmeyi amaçlamaktadır. Sistem, Jetson Nano'ya bağlı bir Raspberry Pi V1 kamerası ile canlı görüntüleri işler ve Yolo modelini kullanarak yangın tespiti gerçekleştirir. Yangın tespit edildiğinde, sistem e-posta ile yangın fotoğrafı ve konum bilgisi gönderir.
+
 ---
 
 ## Proje Özeti
