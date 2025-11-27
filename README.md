@@ -99,6 +99,7 @@ to_email_address = "recipient_email@gmail.com"
 ### Konum Bilgisi
 
 Proje, cihazın konum bilgisini `https://ipinfo.io/` servisi üzerinden alır ve yangın tespiti ile birlikte e-posta ile gönderir.
+
 ---
 
 ## 🧪 Demo Kullanımı — FİRE.mp4 Videosu ile Test
